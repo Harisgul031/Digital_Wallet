@@ -1,0 +1,56 @@
+
+	/* Light Theme (default) */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar-light-mode {
+    background-color: #007bff;
+}
+
+.card-light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar-dark-mode {
+    background-color: #343a40;
+}
+
+.card-dark-mode {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
+
+.btn-dark-mode {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.btn-light-mode {
+    background-color: #007bff;
+    color: #fff;
+}
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .item-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        #dashboard, #shop {
+        display: none;
+    }
